@@ -1,15 +1,12 @@
-/* Set the font for the entire site */
 body {
   font-family: Arial, sans-serif;
 }
 
-/* Set the colors for the entire site */
 body {
   color: #333;
   background-color: #fff;
 }
 
-/* Distinguish the header and footer with special font, background color, and color rules */
 header {
   background-color: #333;
   color: #fff;
@@ -23,7 +20,6 @@ footer {
   font-size: 1em;
 }
 
-/* Style the navigation menu horizontally with margins between the links and special hover behavior */
 nav ul {
   display: block;
   list-style: none;
@@ -44,13 +40,11 @@ nav a:hover {
   color: #fff;
 }
 
-/* Make images responsive */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* Style the form */
 form {
   margin: 20px 0;
 }
@@ -61,7 +55,6 @@ input[type="submit"] {
   margin: 10px 0;
 }
 
-/* Dark mode styles */
 .dark {
   color: #fff;
   background-color: #333;
@@ -85,7 +78,6 @@ input[type="submit"] {
   color: #333;
 }
 
-/* Add styles to center the heading and position the left element at the top left corner of the header */
 .header-container {
   display: flex;
   width: 100%;
@@ -101,19 +93,16 @@ input[type="submit"] {
   align-items: center;
 }
 
-/* Style to center the nav element vertically */
 .nav-center {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Add styles to center the image */
 .center {
   text-align: center;
 }
 
-/* Use media queries to apply different styles for different screen sizes */
 @media (max-width: 600px) {
   body {
     font-size: 14px;
