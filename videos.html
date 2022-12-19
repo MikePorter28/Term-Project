@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <title>Paradise World - Videos</title>
+    <meta name="description" content="A community for those who love music and life's best experiences">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      form label {
+        display: block;
+        padding-bottom: 0.5em;
+      }
+      iframe {
+        display: block;
+        margin: auto;
+      }
+      form {
+        display: block;
+      }
+      
+      footer {
+        position: absolute;
+        bottom: -100;
+        width: 100%;
+      }
+    </style>
+    <script>
+      function toggleDarkMode() {
+        // Get the body element
+        var body = document.getElementsByTagName("body")[0];
+
+        // Toggle the "dark" class on the body element
+        body.classList.toggle("dark");
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">Enter Paradise</a>
+      <h1 style="text-align: center;">Videos</h1>
+    </header>
+    <main>
+      <iframe src="https://www.tiktok.com/@username/video/1234567890" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" style="margin:auto"></iframe>      
+      
+      <style>
+        form {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        label {
+          margin-bottom: 10px;
+        }
+        input {
+          margin-top: 10px;
+        }
+      </style>
+      
+      <form action="/upload-video" method="post" enctype="multipart/form-data">
+        <label for="video-input">Upload a video:</label><br>
+        <div style="width: 20px;"></div>
+        <input type="file" id="video-input" name="video"><br>
+        <button type="submit">Submit</button>
+      </form>
+      
+      
+      
+      
+        
+      <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </main>
+    <footer>
+      <p>Copyright 2022 Paradise World</p>
+    </footer>
+  </body>
+</html>
